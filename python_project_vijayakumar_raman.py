@@ -74,7 +74,7 @@ def get_movie():
         if error<4:
             get_movie()
         else:
-            print('\nmaximum of 3 attempts were failed, please restart the program')
+            print('\nmaximum of 3 attempts were failed might occurred due to internet connection. Please try once the internet is stable')
             sleep(5)
     except:
         print('\nNo results found, please try again with different choice of genre')
